@@ -1,5 +1,13 @@
+import { Form } from "../components/Form/Form"
+import { Header } from "../components/Header/Header"
+import { ToDo } from "../components/ToDo/ToDo"
+
 export const ToDoList = () => {
   return (
-    <span>ToDo List Page</span>
+    <>
+      <Header />
+      <Form />
+      <ToDo />
+    </>
   )
 }
