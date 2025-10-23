@@ -37,7 +37,6 @@ export const ToDoList = () => {
 
   return (
     <>
-      <Header />
       <Form createNewTodo={createNewTodo} />
       <ToDo todos={todos} updateTodo={updateTodo} deleteTodo={deleteTodo} />
       <ToastContainer position="bottom-right" />
