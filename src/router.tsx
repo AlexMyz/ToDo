@@ -30,6 +30,6 @@ export const router = createBrowserRouter(
       path: "*",
       element: <NotFound />,
     },
-  ]
-  // { basename: "/ToDo/" }
+  ],
+  { basename: "/ToDo/" }
 )
