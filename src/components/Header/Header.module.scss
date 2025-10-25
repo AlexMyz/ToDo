@@ -16,6 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 
   & a {
     text-decoration: none;
@@ -26,4 +27,11 @@
       color: #ffffff33;
     }
   }
+}
+
+.toggleButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
 }
